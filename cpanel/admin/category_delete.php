@@ -3,7 +3,7 @@
 
 	if(isset($_POST['delete'])){
 		$id = $_POST['id'];
-		
+
 		$conn = $pdo->open();
 
 		try{
@@ -23,5 +23,5 @@
 	}
 
 	header('location: categories.php');
-	
+
 ?>

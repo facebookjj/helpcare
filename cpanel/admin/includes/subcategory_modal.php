@@ -6,7 +6,7 @@
             <h4 class="modal-title"><b>Add Sub Category</b></h4>
               <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                   <span aria-hidden="true">&times;</span></button>
-             
+
             </div>
             <div class="modal-body">
               <form class="form-horizontal" method="POST" action="subcategory_add.php">
@@ -56,7 +56,7 @@
             <h4 class="modal-title"><b>Edit Sub Category</b></h4>
               <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                   <span aria-hidden="true">&times;</span></button>
-             
+
             </div>
             <div class="modal-body">
               <form class="form-horizontal" method="POST" action="subcategory_edit.php">
@@ -98,10 +98,10 @@
     <div class="modal-dialog">
         <div class="modal-content">
             <div class="modal-header">
-            <h4 class="modal-title"><b>Deleting...</b></h4>
+            <h4 class="modal-title"><b>Delete Sub Category data.</b></h4>
               <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                   <span aria-hidden="true">&times;</span></button>
-             
+
             </div>
             <div class="modal-body">
               <form class="form-horizontal" method="POST" action="subcategory_delete.php">

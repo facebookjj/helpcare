@@ -1,5 +1,5 @@
 <style>
-  
+
   .bg-red, .callout.callout-def, .alert-def, .alert-error, .label-def, .modal-def .modal-body {
     background-color: #e0e0e0 !important;
     color: black !important;
@@ -16,7 +16,7 @@
   .bg-red, .callout.callout-danger, .alert-danger, .alert-error, .label-danger, .modal-danger .modal-body {
     background-color: #dd4b39 !important;
   }
-  
+
   .label {
     display: inline;
     padding: .2em .6em .3em;
@@ -66,7 +66,7 @@
             <a href="#" class="nav-link">
               <i class="nav-icon fas fa-users"></i>
               <p>
-                User
+                File Maintenance
                 <i class="fas fa-angle-left right"></i>
                 <!-- <span class="badge badge-info right">6</span> -->
               </p>
@@ -84,18 +84,30 @@
                   <p>Service Providers</p>
                 </a>
               </li>
-            
+              <li class="nav-item">
+                <a href="categories.php" class="nav-link">
+                <i class=" nav-icon">-</i>
+                  <p>Service Category</p>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="sub-categories.php" class="nav-link">
+                <i class=" nav-icon">-</i>
+                  <p>Service Sub Category </p>
+                </a>
+              </li>
+
             </ul>
           </li>
-        
-          <li class="nav-item">
+
+          <!-- <li class="nav-item">
             <a href="#" class="nav-link">
             <i class="nav-icon fas fa-pager"></i>
               <p>
                 Service
                 <i class="fas fa-angle-left right"></i>
-                <!-- <span class="badge badge-info right">6</span> -->
-              </p>
+                <span class="badge badge-info right">6</span> -->
+              <!--</p>
             </a>
             <ul class="nav nav-treeview">
               <li class="nav-item">
@@ -111,7 +123,7 @@
                 </a>
               </li>
             </ul>
-          </li>
+          </li> -->
           <li class="nav-item">
             <a href="#" class="nav-link">
               <i class="nav-icon fas fa-copy"></i>
@@ -134,7 +146,7 @@
                   <p>Bookings</p>
                 </a>
               </li>
-             
+
             </ul>
           </li>
           <li class="nav-item">
@@ -159,7 +171,7 @@
                   <p>Ratings</p>
                 </a>
               </li>
-             
+
             </ul>
           </li>
           <!-- <li class="nav-item">

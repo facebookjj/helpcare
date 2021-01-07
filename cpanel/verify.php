@@ -3,7 +3,7 @@
 	$conn = $pdo->open();
 
 	if(isset($_POST['login'])){
-		
+
 		$email = $_POST['email'];
 		$password = $_POST['password'];
 
@@ -23,7 +23,7 @@
 						// }
 					}
 					else{
-						$_SESSION['error'] = 'Invalid Password';
+						$_SESSION['error'] = 'Email or Password is Incorrect Pleast Try Again';
 					}
 				}
 				else{
@@ -31,7 +31,7 @@
 				}
 			}
 			else{
-				$_SESSION['error'] = 'Invalid Account';
+				$_SESSION['error'] = 'Email or Password is Incorrect Pleast Try Again';
 			}
 		}
 		catch(PDOException $e){

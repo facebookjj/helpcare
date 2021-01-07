@@ -27,12 +27,12 @@
       <li class="nav-item d-none d-sm-inline-block">
         <a href="#" class="nav-link">Administrator</a>
       </li>
-    
+
     </ul>
   </nav>
   <!-- /.navbar -->
 
- 
+
    <!-- Main Sidebar Container -->
    <?php include 'includes/menubar.php'; ?>
 
@@ -53,7 +53,7 @@
           if(isset($_SESSION['error'])){
             echo "
               <div class='callout callout-danger text-center'>
-                <p>".$_SESSION['error']."</p> 
+                <p>".$_SESSION['error']."</p>
               </div>
             ";
             unset($_SESSION['error']);
@@ -61,7 +61,7 @@
           if(isset($_SESSION['success'])){
             echo "
               <div class='callout callout-success text-center'>
-                <p>".$_SESSION['success']."</p> 
+                <p>".$_SESSION['success']."</p>
               </div>
             ";
             unset($_SESSION['success']);
@@ -120,10 +120,10 @@
               </div>
             </div>
 
-            
+
           </div>
           <!-- /.col-md-6 -->
-         
+
         </div>
         <!-- /.row -->
       </div><!-- /.container-fluid -->
@@ -196,7 +196,7 @@ function getRow(id){
       } else {
         tr[i].style.display = "none";
       }
-    }       
+    }
   }
 }
 </script>
